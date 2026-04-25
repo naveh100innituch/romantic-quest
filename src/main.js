@@ -48,7 +48,7 @@ document.querySelector('#app').innerHTML = `
     controls
     preload="auto"
   >
-    <source src="/videos/cat.mp4" type="video/mp4" />
+    <source src="./videos/cat.mp4" type="video/mp4" />
     הדפדפן שלך לא תומך בוידאו.
   </video>
 </div>
@@ -93,16 +93,16 @@ document.querySelector('#app').innerHTML = `
 
 const images = {
   correct: [
-    '/images/M.jpeg',
-    '/images/S.jpeg'
+    './images/M.jpeg',
+    './images/S.jpeg'
   ],
   wrong: [
-    '/images/aaa.jpg',
-    '/images/dangen.jpg',
-    '/images/habad.jpg',
-    '/images/NL-inside1IL.jpg',
+    './images/aaa.jpg',
+    './images/dangen.jpg',
+    './images/habad.jpg',
+    './images/NL-inside1IL.jpg',
   ],
-  puzzle: '/images/T.jpeg',
+  puzzle: './images/T.jpeg',
 };
 
 const boyNames = ["אדולף", "סייד עלי חוסני", "מוחמד", "חנמאל", "זרובבל", "אייל גולן", "צח פרס"];
